@@ -1,5 +1,8 @@
-### Hi there 👋
+<h1 align="center">Hi 👋, I'm Humphrey</h1>
+I am a Research Postgraduate at the University of Kent 
 
+# 🔭 I’m currently working on ...
+My current research is investigating Java Profiler. I am trying to discover inherent problems with both Sampling and instrumentation profiling. My Goal is to try and find solutions to these problems and possibly develop better techniques of profiling.  
 <!--
 **HumphreyHCB/HumphreyHCB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
