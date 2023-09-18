@@ -9,6 +9,8 @@ My current research is investigating Java Profiler. I am trying to discover inhe
 # 🔭 I’m currently working on ...
 I am currently trying to build a testbed instrumentation for Graal, this would allow me to test why profilers are causing programs to be deposited and what can we do to improve this issue. 
 
+- 📫 How to reach me: ...
+h.burchell@kent.ac.uk
 
 <!--
 **HumphreyHCB/HumphreyHCB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
