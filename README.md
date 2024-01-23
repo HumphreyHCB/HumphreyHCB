@@ -2,12 +2,13 @@
 I am a Research Postgraduate at the University of Kent 
 
 # 💡 I’m currently researching ...
-My current research is investigating Java Profiler. I am trying to discover inherent problems with both Sampling and instrumentation profiling. My Goal is to try and find solutions to these problems and possibly develop better techniques of profiling.  
+My current research is investigating Java Profiler. I am trying to discover inherent problems with both sampling and instrumentation profiling. My goal is to find solutions to these problems and possibly develop better techniques for profiling.
+
 
 <img title="Profiler" alt="Man with glass" width="120px" src="https://github.com/HumphreyHCB/HumphreyHCB/blob/main/img/Profiler.png">
 
 # 🔭 I’m currently working on ...
-I am currently trying to build a testbed instrumentation for Graal, this would allow me to test why profilers are causing programs to be deposited and what can we do to improve this issue. 
+I am currently working on building a testbed instrumentation for Graal. This will enable me to investigate why profilers are causing programs to be disrupted and explore potential improvements to address this issue.
 
 - 📫 How to reach me: ...
 h.burchell@kent.ac.uk
