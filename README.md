@@ -1,29 +1,70 @@
 <h1 align="center">Hi 👋, I'm Humphrey</h1>
-I am a Research Postgraduate at the University of Kent 
+<h3 align="center">PhD Researcher in Programming Languages & Systems at the University of Kent</h3>
 
-# 💡 I’m currently researching ...
-My current research is investigating Java Profiler. I am trying to discover inherent problems with both sampling and instrumentation profiling. My goal is to find solutions to these problems and possibly develop better techniques for profiling.
+<p align="center">
+  <img title="Profiler" alt="Man with glass" width="140px" src="https://github.com/HumphreyHCB/HumphreyHCB/blob/main/img/Profiler.png">
+</p>
 
+---
 
-<img title="Profiler" alt="Man with glass" width="120px" src="https://github.com/HumphreyHCB/HumphreyHCB/blob/main/img/Profiler.png">
+### 💡 About Me
 
-# 🔭 I’m currently working on ...
-I am currently working on building a testbed instrumentation for Graal. This will enable me to investigate why profilers are causing programs to be disrupted and explore potential improvements to address this issue.
+I’m a PhD researcher in the **Programming Languages & Systems group** at the **University of Kent**, supervised by [Dr Stefan Marr](https://stefan-marr.de/).  
+My research focuses on a long-standing challenge: **why Java profilers are so inaccurate, and why they disagree on what’s “hot.”**  
+Sampling profilers often mislead developers, while traditional instrumentation can distort performance by **orders of magnitude**.  
 
-- 📫 How to reach me: ...
-h.burchell@kent.ac.uk
+I’m developing a **hybrid profiler for the Graal compiler** that:
 
-<!--
-**HumphreyHCB/HumphreyHCB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🧩 Inserts lightweight probes after all optimisation phases — leaving the compiler’s behaviour unchanged.  
+- ⚙️ Combines **sampling** to locate hot code with **instrumentation** to zoom in precisely.  
+- 🧠 Enables fine-grained, compiler-level slowdown for accurate ground-truth evaluation.
 
-Here are some ideas to get you started:
+Beyond building better profilers, I’m also designing **techniques to measure profiler accuracy itself**, introducing *controlled slowdowns* that reveal whether profilers can detect the *true* performance behavior.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> 🎯 **Goal:** Produce accurate profiles with minimal overhead — and a reliable way to prove that accuracy.
+
+---
+
+### 🧪 Current Research
+
+I’m currently building an **instrumentation testbed for the Graal compiler** to explore:
+- How sampling and instrumentation interfere with program execution.
+- How compiler-level instrumentation can be made lightweight and predictable.
+- How to quantify profiler accuracy across workloads and runtimes.
+
+---
+
+### 📚 Selected Publications
+
+- **Burchell, H., & Marr, S. (2025).**  
+  *[Divining Profiler Accuracy: An Approach to Approximate Profiler Accuracy Through Machine Code-Level Slowdown.](https://doi.org/10.1145/3763180)*  
+  *Proceedings of the ACM on Programming Languages (OOPSLA ’25).*  
+
+- **Burchell, H., & Marr, S. (2025).**  
+  *[Evaluating Candidate Instructions for Reliable Program Slowdown at the Compiler Level: Towards Supporting Fine-Grained Slowdown for Advanced Developer Tooling.](https://doi.org/10.1145/3759548.3763374)*  
+  *17th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages (VMIL ’25), Singapore.*  
+
+- **Burchell, H., Larose, O., & Marr, S. (2024).**  
+  *[Towards Realistic Results for Instrumentation-Based Profilers for JIT-Compiled Systems.](https://doi.org/10.1145/3679007.3685058)*  
+  *21st ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes (MPLR ’24), Vienna.*  
+
+➡️ [View all publications in KAR](https://kar.kent.ac.uk/102818/)
+
+---
+
+### 💬 Let’s Connect
+
+If you’re interested in:
+- Profilers and instrumentation  
+- CPU sampling and performance analysis  
+- Compiler-level slowdown and benchmarking  
+
+Feel free to get in touch!
+
+📫 **Email:** [h.burchell@kent.ac.uk](mailto:h.burchell@kent.ac.uk)
+
+---
+
+<p align="center">
+  <sub>© 2025 Humphrey Burchell — Researching how to make profilers both <em>accurate</em> and <em>trustworthy</em>.</sub>
+</p>
