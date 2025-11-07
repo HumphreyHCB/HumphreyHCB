@@ -56,5 +56,5 @@ Feel free to get in touch!
 ---
 
 <p align="center">
-  <sub>© 2025 Humphrey Burchell — Researching how to make profilers both <em>accurate</em> and <em>trustworthy</em>.</sub>
+  <sub>© 2025 Humphrey Burchell</sub>
 </p>
