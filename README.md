@@ -16,9 +16,19 @@ Sampling profilers often mislead developers, while traditional instrumentation c
 I’m developing a **instrumentation for the Graal compiler** that:
 
 - 🧩 Inserts lightweight probes after all optimisation phases — leaving the compiler’s behaviour unchanged.  
+
+<p align="center">
+  <img alt="Overhead boxplot" width="420px" src="https://github.com/HumphreyHCB/HumphreyHCB/raw/main/img/Overhead-BoxPlot-Logarithmic.pdf">
+</p>
+
+
 - ⚙️ Combines **sampling** to locate hot code with **instrumentation** to zoom in precisely.  
 
 Beyond building better profilers, I’m also designing **techniques to measure profiler accuracy itself**, introducing *controlled slowdowns* that reveal whether profilers can detect the *true* performance behavior.
+
+<p align="center">
+  <img alt="Ground truth slowdown steps diagram" width="420px" src="https://github.com/HumphreyHCB/HumphreyHCB/raw/main/img/GroundTruthSteps.drawio.pdf">
+</p>
 
 > 🎯 **Goal:** Produce accurate profiles with minimal overhead — and a reliable way to prove it's accuracy.
 
