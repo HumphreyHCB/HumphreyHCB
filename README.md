@@ -13,24 +13,14 @@ I’m a PhD researcher in the **Programming Languages & Systems group** at the *
 My research focuses on a long-standing challenge: **why Java profilers are so inaccurate, and why they disagree on what’s “hot.”**  
 Sampling profilers often mislead developers, while traditional instrumentation can distort performance by **orders of magnitude**.  
 
-I’m developing a **hybrid profiler for the Graal compiler** that:
+I’m developing a **instrumentation for the Graal compiler** that:
 
 - 🧩 Inserts lightweight probes after all optimisation phases — leaving the compiler’s behaviour unchanged.  
 - ⚙️ Combines **sampling** to locate hot code with **instrumentation** to zoom in precisely.  
-- 🧠 Enables fine-grained, compiler-level slowdown for accurate ground-truth evaluation.
 
 Beyond building better profilers, I’m also designing **techniques to measure profiler accuracy itself**, introducing *controlled slowdowns* that reveal whether profilers can detect the *true* performance behavior.
 
-> 🎯 **Goal:** Produce accurate profiles with minimal overhead — and a reliable way to prove that accuracy.
-
----
-
-### 🧪 Current Research
-
-I’m currently building an **instrumentation testbed for the Graal compiler** to explore:
-- How sampling and instrumentation interfere with program execution.
-- How compiler-level instrumentation can be made lightweight and predictable.
-- How to quantify profiler accuracy across workloads and runtimes.
+> 🎯 **Goal:** Produce accurate profiles with minimal overhead — and a reliable way to prove it's accuracy.
 
 ---
 
@@ -57,7 +47,7 @@ I’m currently building an **instrumentation testbed for the Graal compiler** t
 If you’re interested in:
 - Profilers and instrumentation  
 - CPU sampling and performance analysis  
-- Compiler-level slowdown and benchmarking  
+- Compiler-level slowdown  
 
 Feel free to get in touch!
 
