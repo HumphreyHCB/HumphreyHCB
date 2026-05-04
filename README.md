@@ -61,10 +61,10 @@ If you’re interested in:
 
 Feel free to get in touch!
 
-📫 **Email:** [h.burchell@kent.ac.uk](mailto:h.burchell@kent.ac.uk)
+📫 **Email:** [humphreyburchell@gmail.com](mailto:humphreyburchell@gmail.com)
 
 ---
 
 <p align="center">
-  <sub>© 2025 Humphrey Burchell</sub>
+  <sub>© 2026 Humphrey Burchell</sub>
 </p>
