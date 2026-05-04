@@ -11,26 +11,28 @@
 
 I’m a PhD researcher in the **Programming Languages & Systems group** at the **University of Kent**, supervised by [Dr Stefan Marr](https://stefan-marr.de/).  
 My research focuses on a long-standing challenge: **why Java profilers are so inaccurate, and why they disagree on what’s “hot.”**  
-Sampling profilers often mislead developers, while traditional instrumentation can distort performance by **orders of magnitude**.  
+Sampling profilers can mislead developers, while traditional instrumentation can distort performance by **orders of magnitude**.
 
-I’m developing a **instrumentation for the Graal compiler** that:
-
-- 🧩 Inserts lightweight probes after all optimisation phases — leaving the compiler’s behaviour unchanged.  
+My work includes empirical studies of both sampling-based and instrumentation-based profilers. I have also developed a late compiler-stage instrumentation tool, **BuboC**, which avoids interfering with major compiler decisions, reducing overhead and minimising the observer effect.
 
 <p align="center">
   <img alt="Overhead boxplot" width="420px" src="https://github.com/HumphreyHCB/HumphreyHCB/raw/main/img/Overhead-BoxPlot-Logarithmic-1.png">
 </p>
 
-
-- ⚙️ Combines **sampling** to locate hot code with **instrumentation** to zoom in precisely.  
-
-Beyond building better profilers, I’m also designing **techniques to measure profiler accuracy itself**, introducing *controlled slowdowns* that reveal whether profilers can detect the *true* performance behavior.
+I’m also designing **techniques to measure profiler accuracy itself**, introducing *controlled slowdowns* that reveal whether profilers can detect the *true* performance behaviour.
 
 <p align="center">
   <img alt="Ground truth slowdown steps diagram" width="420px" src="https://github.com/HumphreyHCB/HumphreyHCB/raw/main/img/GroundTruthSteps.drawio-1.png">
 </p>
 
-> 🎯 **Goal:** Produce accurate profiles with minimal overhead — and a reliable way to prove it's accuracy.
+Finally, I have developed a loop-centred instrumentation profiler inside the Graal compiler. This tool, **BuboL**, provides more accurate measurements of CPU time spent inside loops when compared with CPU sampling profilers.
+
+<p align="center">
+  <img alt="BuboL Accuracy plot" width="420px" src="https://github.com/HumphreyHCB/HumphreyHCB/raw/main/img/BuboL%20Accuracy.png">
+</p>
+
+
+> 🎯 **Goal**: Build profiling techniques that are accurate, practical, and measurable against ground truth.
 
 ---
 
